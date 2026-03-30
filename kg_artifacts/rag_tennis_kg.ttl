@@ -1,0 +1,1285 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tennis: <http://example.org/tennis/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/tennis/player/Alcaraz_Jannik_Sinner> a tennis:Player ;
+    rdfs:label "Alcaraz-Jannik Sinner" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Annabel_Croft> a tennis:Player ;
+    rdfs:label "Annabel Croft" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Arthur_Ashe> a tennis:Player ;
+    rdfs:label "Arthur Ashe" ;
+    tennis:won <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/Benito_Barbadillo> a tennis:Player ;
+    rdfs:label "Benito Barbadillo" ;
+    tennis:fromCountry <http://example.org/tennis/country/Jerez> .
+
+<http://example.org/tennis/player/Bertrand_Milbourne_Clark> a tennis:Player ;
+    rdfs:label "Bertrand Milbourne Clark" ;
+    tennis:fromCountry <http://example.org/tennis/country/Jamaica> .
+
+<http://example.org/tennis/player/Bjorn_Borg> a tennis:Player ;
+    rdfs:label "Björn Borg" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Brookes> a tennis:Player ;
+    rdfs:label "Brookes" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Chris_Evert> a tennis:Player ;
+    rdfs:label "Chris Evert" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/Fabio_Fognini> a tennis:Player ;
+    rdfs:label "Fabio Fognini" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Federico_Delbonis> a tennis:Player ;
+    rdfs:label "Federico Delbonis" ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open> .
+
+<http://example.org/tennis/player/Fred_Perry> a tennis:Player ;
+    rdfs:label "Fred Perry" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Gencic> a tennis:Player ;
+    rdfs:label "Genčić" ;
+    tennis:fromCountry <http://example.org/tennis/country/Munich> .
+
+<http://example.org/tennis/player/Hugo_Dellien> a tennis:Player ;
+    rdfs:label "Hugo Dellien" ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open> .
+
+<http://example.org/tennis/player/Iga_Swiatek> a tennis:Player ;
+    rdfs:label "Iga Swiatek" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Ivan_Lendl> a tennis:Player ;
+    rdfs:label "Ivan Lendl" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Jimmy_Connors> a tennis:Player ;
+    rdfs:label "Jimmy Connors" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/John_McEnroe> a tennis:Player ;
+    rdfs:label "John McEnroe" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/John_Newcombe> a tennis:Player ;
+    rdfs:label "John Newcombe" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Justine_Henin> a tennis:Player ;
+    rdfs:label "Justine Henin" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Kwon_Soon_woo> a tennis:Player ;
+    rdfs:label "Kwon Soon-woo" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Laura_Robson> a tennis:Player ;
+    rdfs:label "Laura Robson" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Louise_Brough> a tennis:Player ;
+    rdfs:label "Louise Brough" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Marcos_Baghdatis> a tennis:Player ;
+    rdfs:label "Marcos Baghdatis" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Margaret_Court_s> a tennis:Player ;
+    rdfs:label "Margaret Court's" ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open> .
+
+<http://example.org/tennis/player/Martina> a tennis:Player ;
+    rdfs:label "Martina" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Martina_Navratilova> a tennis:Player ;
+    rdfs:label "Martina Navratilova" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Mats_Wilander> a tennis:Player ;
+    rdfs:label "Mats Wilander" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Monica_Seles> a tennis:Player ;
+    rdfs:label "Monica Seles" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Pete_Sampras> a tennis:Player ;
+    rdfs:label "Pete Sampras" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/Roger_Federer_196> a tennis:Player ;
+    rdfs:label "Roger Federer.[196" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Roger_Federer_36> a tennis:Player ;
+    rdfs:label "Roger Federer.[36" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Serena> a tennis:Player ;
+    rdfs:label "Serena" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Serena_Williams> a tennis:Player ;
+    rdfs:label "Serena Williams" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Sinner_238> a tennis:Player ;
+    rdfs:label "Sinner.[238" ;
+    tennis:won <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Stan_Wawrinka_602_603> a tennis:Player ;
+    rdfs:label "Stan Wawrinka,[602][603" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Stefan_Edberg> a tennis:Player ;
+    rdfs:label "Stefan Edberg" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Steffi_Graf> a tennis:Player ;
+    rdfs:label "Steffi Graf" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Thiem> a tennis:Player ;
+    rdfs:label "Thiem" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Venus_Williams> a tennis:Player ;
+    rdfs:label "Venus Williams" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open> ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Viktor_Troicki> a tennis:Player ;
+    rdfs:label "Viktor Troicki" ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Virginia_Wade> a tennis:Player ;
+    rdfs:label "Virginia Wade" ;
+    tennis:won <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2002> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2002" ;
+    tennis:editionYear "2002"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2008> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2008" ;
+    tennis:editionYear "2008"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2010> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2010" ;
+    tennis:editionYear "2010"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2012> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2012" ;
+    tennis:editionYear "2012"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2013> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2013" ;
+    tennis:editionYear "2013"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2019> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2019" ;
+    tennis:editionYear "2019"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2023> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2023" ;
+    tennis:editionYear "2023"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2025> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2025" ;
+    tennis:editionYear "2025"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Australian_Open_2026> a tennis:TournamentEdition ;
+    rdfs:label "Australian Open 2026" ;
+    tennis:editionYear "2026"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_1984> a tennis:TournamentEdition ;
+    rdfs:label "French Open 1984" ;
+    tennis:editionYear "1984"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_1996> a tennis:TournamentEdition ;
+    rdfs:label "French Open 1996" ;
+    tennis:editionYear "1996"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_2002> a tennis:TournamentEdition ;
+    rdfs:label "French Open 2002" ;
+    tennis:editionYear "2002"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_2012> a tennis:TournamentEdition ;
+    rdfs:label "French Open 2012" ;
+    tennis:editionYear "2012"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_2014> a tennis:TournamentEdition ;
+    rdfs:label "French Open 2014" ;
+    tennis:editionYear "2014"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_2020> a tennis:TournamentEdition ;
+    rdfs:label "French Open 2020" ;
+    tennis:editionYear "2020"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/French_Open_2025> a tennis:TournamentEdition ;
+    rdfs:label "French Open 2025" ;
+    tennis:editionYear "2025"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_1968> a tennis:TournamentEdition ;
+    rdfs:label "US Open 1968" ;
+    tennis:editionYear "1968"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_1990> a tennis:TournamentEdition ;
+    rdfs:label "US Open 1990" ;
+    tennis:editionYear "1990"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_2013> a tennis:TournamentEdition ;
+    rdfs:label "US Open 2013" ;
+    tennis:editionYear "2013"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_2022> a tennis:TournamentEdition ;
+    rdfs:label "US Open 2022" ;
+    tennis:editionYear "2022"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_2023> a tennis:TournamentEdition ;
+    rdfs:label "US Open 2023" ;
+    tennis:editionYear "2023"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_2024> a tennis:TournamentEdition ;
+    rdfs:label "US Open 2024" ;
+    tennis:editionYear "2024"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/US_Open_2025> a tennis:TournamentEdition ;
+    rdfs:label "US Open 2025" ;
+    tennis:editionYear "2025"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_1936> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 1936" ;
+    tennis:editionYear "1936"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2005> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2005" ;
+    tennis:editionYear "2005"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2011> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2011" ;
+    tennis:editionYear "2011"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2013> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2013" ;
+    tennis:editionYear "2013"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2015> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2015" ;
+    tennis:editionYear "2015"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2017> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2017" ;
+    tennis:editionYear "2017"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2019> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2019" ;
+    tennis:editionYear "2019"^^xsd:gYear .
+
+<http://example.org/tennis/tournamentedition/Wimbledon_Championships_2025> a tennis:TournamentEdition ;
+    rdfs:label "Wimbledon Championships 2025" ;
+    tennis:editionYear "2025"^^xsd:gYear .
+
+<http://example.org/tennis/country/Australia> a tennis:Country ;
+    rdfs:label "Australia" .
+
+<http://example.org/tennis/country/Jamaica> a tennis:Country ;
+    rdfs:label "Jamaica" .
+
+<http://example.org/tennis/country/Jerez> a tennis:Country ;
+    rdfs:label "Jerez" .
+
+<http://example.org/tennis/country/London> a tennis:Country ;
+    rdfs:label "London" .
+
+<http://example.org/tennis/country/Madrid> a tennis:Country ;
+    rdfs:label "Madrid" .
+
+<http://example.org/tennis/country/Majorca> a tennis:Country ;
+    rdfs:label "Majorca" .
+
+<http://example.org/tennis/country/Manacor> a tennis:Country ;
+    rdfs:label "Manacor" .
+
+<http://example.org/tennis/country/Miami> a tennis:Country ;
+    rdfs:label "Miami" .
+
+<http://example.org/tennis/country/Munich> a tennis:Country ;
+    rdfs:label "Munich" .
+
+<http://example.org/tennis/country/New_Zealand> a tennis:Country ;
+    rdfs:label "New Zealand" .
+
+<http://example.org/tennis/country/Paris> a tennis:Country ;
+    rdfs:label "Paris" .
+
+<http://example.org/tennis/country/Victoria> a tennis:Country ;
+    rdfs:label "Victoria" .
+
+<http://example.org/tennis/player/Albert_Ramos_Vinolas> a tennis:Player ;
+    rdfs:label "Albert Ramos-Vinolas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Alex_de_Minaur> a tennis:Player ;
+    rdfs:label "Alex de Minaur" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Alexander_Waske_72> a tennis:Player ;
+    rdfs:label "Alexander Waske.[72" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Alexander_Zverev_301> a tennis:Player ;
+    rdfs:label "Alexander Zverev.[301" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Philipp_Kohlschreiber> .
+
+<http://example.org/tennis/player/Andy_Murray_134> a tennis:Player ;
+    rdfs:label "Andy Murray.[134" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Andy_Murray_137> a tennis:Player ;
+    rdfs:label "Andy Murray.[137" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Andy_Murray_203> a tennis:Player ;
+    rdfs:label "Andy Murray.[203" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Andy_Roddick> a tennis:Player ;
+    rdfs:label "Andy Roddick" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Auger_Aliassime> a tennis:Player ;
+    rdfs:label "Auger-Aliassime" ;
+    tennis:playedAgainst <http://example.org/tennis/player/David_Goffin> .
+
+<http://example.org/tennis/player/Beaten_Nadal> a tennis:Player ;
+    rdfs:label "Beaten Nadal" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Berdych> a tennis:Player ;
+    rdfs:label "Berdych" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Bjorn_Borg_s> a tennis:Player ;
+    rdfs:label "Björn Borg's" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Borna_Coric> a tennis:Player ;
+    rdfs:label "Borna Ćorić" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Daniele_Bracciali> a tennis:Player ;
+    rdfs:label "Daniele Bracciali" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Janis_Skroderis_43> .
+
+<http://example.org/tennis/player/David_Goffin> a tennis:Player ;
+    rdfs:label "David Goffin" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Auger_Aliassime> .
+
+<http://example.org/tennis/player/David_Nalbandian> a tennis:Player ;
+    rdfs:label "David Nalbandian" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Djokovic_122> a tennis:Player ;
+    rdfs:label "Djokovic.[122" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Dustin_Brown> a tennis:Player ;
+    rdfs:label "Dustin Brown" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Ernests_Gulbis> a tennis:Player ;
+    rdfs:label "Ernests Gulbis" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Fabian_Marozsan> a tennis:Player ;
+    rdfs:label "Fabian Marozsan" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Facundo_Bagnis> a tennis:Player ;
+    rdfs:label "Facundo Bagnis" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Felix_Auger_Aliassime> a tennis:Player ;
+    rdfs:label "Félix Auger-Aliassime" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Fernando_Verdasco> a tennis:Player ;
+    rdfs:label "Fernando Verdasco" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Francisco_Cerundolo> a tennis:Player ;
+    rdfs:label "Francisco Cerúndolo" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Fritz> a tennis:Player ;
+    rdfs:label "Fritz" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Giulio_Zeppieri> a tennis:Player ;
+    rdfs:label "Giulio Zeppieri" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Granollers> a tennis:Player ;
+    rdfs:label "Granollers" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Hajek> a tennis:Player ;
+    rdfs:label "Hajek" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Hrbaty> a tennis:Player ;
+    rdfs:label "Hrbaty" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Jack_Draper> a tennis:Player ;
+    rdfs:label "Jack Draper" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Jack_Sock> a tennis:Player ;
+    rdfs:label "Jack Sock" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Lloyd_Harris> .
+
+<http://example.org/tennis/player/Jan_Lennard_Struff> a tennis:Player ;
+    rdfs:label "Jan-Lennard Struff" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Janis_Skroderis_43> a tennis:Player ;
+    rdfs:label "Janis Skroderis,[43" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Daniele_Bracciali> .
+
+<http://example.org/tennis/player/Jelena_Jankovic> a tennis:Player ;
+    rdfs:label "Jelena Janković" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Jiri_Lehecka> a tennis:Player ;
+    rdfs:label "Jiří Lehečka" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/John_McEnroe_s> a tennis:Player ;
+    rdfs:label "John McEnroe's" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Diego_Schwartzman> .
+
+<http://example.org/tennis/player/Julien_Gely> a tennis:Player ;
+    rdfs:label "Julien Gely" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Kyrgios> a tennis:Player ;
+    rdfs:label "Kyrgios" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Lloyd_Harris> a tennis:Player ;
+    rdfs:label "Lloyd Harris" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Jack_Sock> .
+
+<http://example.org/tennis/player/Lucas_Pouille> a tennis:Player ;
+    rdfs:label "Lucas Pouille" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Mardy_Fish> a tennis:Player ;
+    rdfs:label "Mardy Fish" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Mariano_Puerta_48> a tennis:Player ;
+    rdfs:label "Mariano Puerta.[48" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Maxime_Cressy> a tennis:Player ;
+    rdfs:label "Maxime Cressy" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Mikael_Ymer> a tennis:Player ;
+    rdfs:label "Mikael Ymer" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Monfils> a tennis:Player ;
+    rdfs:label "Monfils" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Moya> a tennis:Player ;
+    rdfs:label "Moyá" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Nafal> a tennis:Player ;
+    rdfs:label "Nafal" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Nick_Kyrgios_297> a tennis:Player ;
+    rdfs:label "Nick Kyrgios.[297" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Nikolay_Davydenko> a tennis:Player ;
+    rdfs:label "Nikolay Davydenko" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Nishikori> a tennis:Player ;
+    rdfs:label "Nishikori" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Olivier_Rochus_189_190> a tennis:Player ;
+    rdfs:label "Olivier Rochus.[189][190" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Ruben_Bemelmans> .
+
+<http://example.org/tennis/player/Pat_Cash> a tennis:Player ;
+    rdfs:label "Pat Cash" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Rafa_Nadal> a tennis:Player ;
+    rdfs:label "Rafa Nadal" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray> .
+
+<http://example.org/tennis/player/Ramos_Vinolas> a tennis:Player ;
+    rdfs:label "Ramos Viñolas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Robredo> a tennis:Player ;
+    rdfs:label "Robredo" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Roddick> a tennis:Player ;
+    rdfs:label "Roddick" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Roger_Federer_172> a tennis:Player ;
+    rdfs:label "Roger Federer.[172" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Kevin_Anderson> .
+
+<http://example.org/tennis/player/Ruben_Bemelmans> a tennis:Player ;
+    rdfs:label "Ruben Bemelmans" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Olivier_Rochus_189_190> .
+
+<http://example.org/tennis/player/Sebastian_Korda> a tennis:Player ;
+    rdfs:label "Sebastian Korda" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Soderling> a tennis:Player ;
+    rdfs:label "Söderling" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Spencer_Gore> a tennis:Player ;
+    rdfs:label "Spencer Gore" ;
+    tennis:playedAgainst <http://example.org/tennis/player/William_Marshall> .
+
+<http://example.org/tennis/player/Stanislas_Wawrinka> a tennis:Player ;
+    rdfs:label "Stanislas Wawrinka" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Taylor_Fritz> a tennis:Player ;
+    rdfs:label "Taylor Fritz" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Thiago_Monteiro_46> a tennis:Player ;
+    rdfs:label "Thiago Monteiro.[46" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Tomeu_Salva> a tennis:Player ;
+    rdfs:label "Tomeu Salvá" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Vajda> a tennis:Player ;
+    rdfs:label "Vajda" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Gael_Monfils> .
+
+<http://example.org/tennis/player/William_Marshall> a tennis:Player ;
+    rdfs:label "William Marshall" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Spencer_Gore> .
+
+<http://example.org/tennis/player/del_Potro> a tennis:Player ;
+    rdfs:label "del Potro" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/country/Spain> a tennis:Country ;
+    rdfs:label "Spain" .
+
+<http://example.org/tennis/player/Albert_Montanes> a tennis:Player ;
+    rdfs:label "Albert Montañés" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Albert_Portas>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Albert_Portas> a tennis:Player ;
+    rdfs:label "Albert Portas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Albert_Montanes>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Andre_Agassi> a tennis:Player ;
+    rdfs:label "Andre Agassi" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Andre_Agassi_s> a tennis:Player ;
+    rdfs:label "Andre Agassi's" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Anthony_Wilding> a tennis:Player ;
+    rdfs:label "Anthony Wilding" ;
+    tennis:fromCountry <http://example.org/tennis/country/New_Zealand> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Boris_Becker> a tennis:Player ;
+    rdfs:label "Boris Becker" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Mario_Ancic>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Camilo_Ugo_Carabelli> a tennis:Player ;
+    rdfs:label "Camilo Ugo Carabelli" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Carlos_Moya> a tennis:Player ;
+    rdfs:label "Carlos Moyá" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Richard_Gasquet> .
+
+<http://example.org/tennis/player/Cash> a tennis:Player ;
+    rdfs:label "Cash" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Del_Potro> a tennis:Player ;
+    rdfs:label "Del Potro" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Denis_Shapovalov> a tennis:Player ;
+    rdfs:label "Denis Shapovalov" ;
+    tennis:playedAgainst <http://example.org/tennis/player/John_Isner>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Fernando_Gonzalez> a tennis:Player ;
+    rdfs:label "Fernando González" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Grigor_Dimitrov> a tennis:Player ;
+    rdfs:label "Grigor Dimitrov" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Jannik_Sinner>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Guillermo_Canas> a tennis:Player ;
+    rdfs:label "Guillermo Cañas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Guillermo_Vilas_s> a tennis:Player ;
+    rdfs:label "Guillermo Vilas's" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Robin_Soderling> .
+
+<http://example.org/tennis/player/Haas> a tennis:Player ;
+    rdfs:label "Haas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Tommy_Haas> .
+
+<http://example.org/tennis/player/Holger_Rune> a tennis:Player ;
+    rdfs:label "Holger Rune" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Janko_Tipsarevic> a tennis:Player ;
+    rdfs:label "Janko Tipsarević" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Joachim_Johansson> a tennis:Player ;
+    rdfs:label "Joachim Johansson" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Tomas_Berdych> .
+
+<http://example.org/tennis/player/Karen_Khachanov> a tennis:Player ;
+    rdfs:label "Karen Khachanov" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/La_Decima> a tennis:Player ;
+    rdfs:label "La Décima" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Milos_Raonic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Luca_Nardi> a tennis:Player ;
+    rdfs:label "Luca Nardi" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Botic_van_de_Zandschulp>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Marc_Lopez> a tennis:Player ;
+    rdfs:label "Marc Lopez" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Sergiy_Stakhovsky> .
+
+<http://example.org/tennis/player/Marcel_Granollers> a tennis:Player ;
+    rdfs:label "Marcel Granollers" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Ricardo_Villacorta> .
+
+<http://example.org/tennis/player/Marin_Cilic> a tennis:Player ;
+    rdfs:label "Marin Čilić" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Medvedev>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Mario_Ancic> a tennis:Player ;
+    rdfs:label "Mario Ančić" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Boris_Becker>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Mario_Ancic_46> a tennis:Player ;
+    rdfs:label "Mario Ančić.[46" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Gael_Monfils>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Martin_Klizan> a tennis:Player ;
+    rdfs:label "Martin Kližan" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Kei_Nishikori>,
+        <http://example.org/tennis/player/Kyle_Edmund> .
+
+<http://example.org/tennis/player/Matteo_Berrettini> a tennis:Player ;
+    rdfs:label "Matteo Berrettini" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Nikola_Miloje> a tennis:Player ;
+    rdfs:label "Nikola Miloje" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Frances_Tiafoe> .
+
+<http://example.org/tennis/player/Philipp_Kohlschreiber> a tennis:Player ;
+    rdfs:label "Philipp Kohlschreiber" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Wimbledon_Championships> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev_301>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Rafael_Nadal_78> a tennis:Player ;
+    rdfs:label "Rafael Nadal.[78" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Cameron_Norrie>,
+        <http://example.org/tennis/player/Carlos_Alcaraz> .
+
+<http://example.org/tennis/player/Ricardo_Villacorta> a tennis:Player ;
+    rdfs:label "Ricardo Villacorta" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Marcel_Granollers>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Richard_Gasquet> a tennis:Player ;
+    rdfs:label "Richard Gasquet" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Moya>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Robin_Soderling> a tennis:Player ;
+    rdfs:label "Robin Söderling" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Guillermo_Vilas_s>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Robin_Soderling_271> a tennis:Player ;
+    rdfs:label "Robin Söderling.[271" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Rublev> a tennis:Player ;
+    rdfs:label "Rublev" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Stefanos_Tsitsipas> .
+
+<http://example.org/tennis/player/Sergiy_Stakhovsky> a tennis:Player ;
+    rdfs:label "Sergiy Stakhovsky" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Marc_Lopez>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Tommy_Haas> a tennis:Player ;
+    rdfs:label "Tommy Haas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Haas>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Tommy_Robredo> a tennis:Player ;
+    rdfs:label "Tommy Robredo" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Andrey_Rublev> a tennis:Player ;
+    rdfs:label "Andrey Rublev" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Casper_Ruud>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Diego_Schwartzman> a tennis:Player ;
+    rdfs:label "Diego Schwartzman" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Jannik_Sinner>,
+        <http://example.org/tennis/player/John_McEnroe_s>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Fognini> a tennis:Player ;
+    rdfs:label "Fognini" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Frances_Tiafoe> a tennis:Player ;
+    rdfs:label "Frances Tiafoe" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Nikola_Miloje> .
+
+<http://example.org/tennis/player/Kevin_Anderson> a tennis:Player ;
+    rdfs:label "Kevin Anderson" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer_172> .
+
+<http://example.org/tennis/player/Kyle_Edmund> a tennis:Player ;
+    rdfs:label "Kyle Edmund" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Kei_Nishikori>,
+        <http://example.org/tennis/player/Martin_Klizan>,
+        <http://example.org/tennis/player/Novak_Djokovic> .
+
+<http://example.org/tennis/player/Medvedev> a tennis:Player ;
+    rdfs:label "Medvedev" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Marin_Cilic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Stefanos_Tsitsipas> .
+
+<http://example.org/tennis/player/Milos_Raonic> a tennis:Player ;
+    rdfs:label "Milos Raonic" ;
+    tennis:playedAgainst <http://example.org/tennis/player/La_Decima>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Pablo_Carreno_Busta> a tennis:Player ;
+    rdfs:label "Pablo Carreño Busta" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Novak_Djokovic> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open> .
+
+<http://example.org/tennis/player/Stan_Wawrinka> a tennis:Player ;
+    rdfs:label "Stan Wawrinka" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/US_Open> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/Tomas_Berdych> a tennis:Player ;
+    rdfs:label "Tomas Berdych",
+        "Tomáš Berdych" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Joachim_Johansson>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Botic_van_de_Zandschulp> a tennis:Player ;
+    rdfs:label "Botic van de Zandschulp" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/US_Open> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Luca_Nardi>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Cameron_Norrie> a tennis:Player ;
+    rdfs:label "Cameron Norrie" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Nick_Kyrgios>,
+        <http://example.org/tennis/player/Rafael_Nadal_78>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Daniil_Medvedev> a tennis:Player ;
+    rdfs:label "Daniil Medvedev" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Dominic_Thiem>,
+        <http://example.org/tennis/player/Jannik_Sinner>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open> .
+
+<http://example.org/tennis/player/David_Ferrer> a tennis:Player ;
+    rdfs:label "David Ferrer" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/John_Isner>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Gael_Monfils> a tennis:Player ;
+    rdfs:label "Gael Monfils",
+        "Gaël Monfils" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Mario_Ancic_46>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Vajda> ;
+    tennis:won <http://example.org/tennis/tournament/French_Open> .
+
+<http://example.org/tennis/player/Jo_Wilfried_Tsonga> a tennis:Player ;
+    rdfs:label "Jo-Wilfried Tsonga" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Juan_Martin_del_Potro>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Juan_Martin_del_Potro> a tennis:Player ;
+    rdfs:label "Juan Martín del Potro" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Jo_Wilfried_Tsonga>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/surface/Clay> a tennis:Surface ;
+    rdfs:label "Clay" .
+
+<http://example.org/tennis/surface/Grass> a tennis:Surface ;
+    rdfs:label "Grass" .
+
+<http://example.org/tennis/surface/Hard_Court> a tennis:Surface ;
+    rdfs:label "Hard Court" .
+
+<http://example.org/tennis/player/Casper_Ruud> a tennis:Player ;
+    rdfs:label "Casper Ruud" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Andrey_Rublev>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Dominic_Thiem> a tennis:Player ;
+    rdfs:label "Dominic Thiem" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Daniil_Medvedev>,
+        <http://example.org/tennis/player/Nick_Kyrgios>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Jannik_Sinner> a tennis:Player ;
+    rdfs:label "Jannik Sinner" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Daniil_Medvedev>,
+        <http://example.org/tennis/player/Diego_Schwartzman>,
+        <http://example.org/tennis/player/Grigor_Dimitrov>,
+        <http://example.org/tennis/player/Novak_Djokovic> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/John_Isner> a tennis:Player ;
+    rdfs:label "John Isner" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/David_Ferrer>,
+        <http://example.org/tennis/player/Denis_Shapovalov>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal> .
+
+<http://example.org/tennis/player/Kei_Nishikori> a tennis:Player ;
+    rdfs:label "Kei Nishikori" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Kyle_Edmund>,
+        <http://example.org/tennis/player/Martin_Klizan>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Nick_Kyrgios> a tennis:Player ;
+    rdfs:label "Nick Kyrgios" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Cameron_Norrie>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Dominic_Thiem>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer> .
+
+<http://example.org/tennis/player/Stefanos_Tsitsipas> a tennis:Player ;
+    rdfs:label "Stefanos Tsitsipas" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Medvedev>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Rublev> .
+
+<http://example.org/tennis/player/Alexander_Zverev> a tennis:Player ;
+    rdfs:label "Alexander Zverev" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andrey_Rublev>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Casper_Ruud>,
+        <http://example.org/tennis/player/Frances_Tiafoe>,
+        <http://example.org/tennis/player/Nikola_Miloje>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Pablo_Carreno_Busta>,
+        <http://example.org/tennis/player/Rafael_Nadal> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/US_Open> .
+
+<http://example.org/tennis/player/Andy_Murray> a tennis:Player ;
+    rdfs:label "Andy Murray" ;
+    tennis:playedAgainst <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/David_Ferrer>,
+        <http://example.org/tennis/player/Del_Potro>,
+        <http://example.org/tennis/player/Fognini>,
+        <http://example.org/tennis/player/Guillermo_Canas>,
+        <http://example.org/tennis/player/Jo_Wilfried_Tsonga>,
+        <http://example.org/tennis/player/John_Isner>,
+        <http://example.org/tennis/player/Juan_Martin_del_Potro>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafa_Nadal>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Roger_Federer>,
+        <http://example.org/tennis/player/Stan_Wawrinka> ;
+    tennis:won <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/tournament/US_Open> a tennis:Tournament ;
+    rdfs:label "US Open" ;
+    tennis:hasSurface <http://example.org/tennis/surface/Clay>,
+        <http://example.org/tennis/surface/Grass>,
+        <http://example.org/tennis/surface/Hard_Court> .
+
+<http://example.org/tennis/player/Roger_Federer> a tennis:Player ;
+    rdfs:label "Roger Federer" ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Andre_Agassi_s>,
+        <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Anthony_Wilding>,
+        <http://example.org/tennis/player/Bjorn_Borg_s>,
+        <http://example.org/tennis/player/Cameron_Norrie>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Dominic_Thiem>,
+        <http://example.org/tennis/player/Ernests_Gulbis>,
+        <http://example.org/tennis/player/Francisco_Cerundolo>,
+        <http://example.org/tennis/player/Jo_Wilfried_Tsonga>,
+        <http://example.org/tennis/player/Kei_Nishikori>,
+        <http://example.org/tennis/player/Matteo_Berrettini>,
+        <http://example.org/tennis/player/Nafal>,
+        <http://example.org/tennis/player/Nick_Kyrgios>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Tommy_Robredo> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/tournament/Australian_Open> a tennis:Tournament ;
+    rdfs:label "Australian Open" ;
+    tennis:hasSurface <http://example.org/tennis/surface/Clay>,
+        <http://example.org/tennis/surface/Grass>,
+        <http://example.org/tennis/surface/Hard_Court> .
+
+<http://example.org/tennis/tournament/Wimbledon_Championships> a tennis:Tournament ;
+    rdfs:label "Wimbledon Championships" ;
+    tennis:hasSurface <http://example.org/tennis/surface/Clay>,
+        <http://example.org/tennis/surface/Grass>,
+        <http://example.org/tennis/surface/Hard_Court> .
+
+<http://example.org/tennis/player/Carlos_Alcaraz> a tennis:Player ;
+    rdfs:label "Carlos Alcaraz" ;
+    tennis:fromCountry <http://example.org/tennis/country/Spain> ;
+    tennis:participatedIn <http://example.org/tennis/tournament/French_Open> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alex_de_Minaur>,
+        <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Botic_van_de_Zandschulp>,
+        <http://example.org/tennis/player/Cameron_Norrie>,
+        <http://example.org/tennis/player/Casper_Ruud>,
+        <http://example.org/tennis/player/Fabian_Marozsan>,
+        <http://example.org/tennis/player/Facundo_Bagnis>,
+        <http://example.org/tennis/player/Felix_Auger_Aliassime>,
+        <http://example.org/tennis/player/Frances_Tiafoe>,
+        <http://example.org/tennis/player/Fritz>,
+        <http://example.org/tennis/player/Giulio_Zeppieri>,
+        <http://example.org/tennis/player/Holger_Rune>,
+        <http://example.org/tennis/player/Jack_Draper>,
+        <http://example.org/tennis/player/Jan_Lennard_Struff>,
+        <http://example.org/tennis/player/Jannik_Sinner>,
+        <http://example.org/tennis/player/Jiri_Lehecka>,
+        <http://example.org/tennis/player/Mikael_Ymer>,
+        <http://example.org/tennis/player/Nick_Kyrgios>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Pablo_Carreno_Busta>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Rafael_Nadal_78>,
+        <http://example.org/tennis/player/Ramos_Vinolas>,
+        <http://example.org/tennis/player/Roger_Federer>,
+        <http://example.org/tennis/player/Stefanos_Tsitsipas>,
+        <http://example.org/tennis/player/Thiago_Monteiro_46> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/tournament/French_Open> a tennis:Tournament ;
+    rdfs:label "French Open" ;
+    tennis:hasSurface <http://example.org/tennis/surface/Clay>,
+        <http://example.org/tennis/surface/Grass>,
+        <http://example.org/tennis/surface/Hard_Court> .
+
+<http://example.org/tennis/player/Novak_Djokovic> a tennis:Player ;
+    rdfs:label "Novak Djokovic" ;
+    tennis:fromCountry <http://example.org/tennis/country/Australia>,
+        <http://example.org/tennis/country/Victoria> ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Andre_Agassi>,
+        <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Beaten_Nadal>,
+        <http://example.org/tennis/player/Borna_Coric>,
+        <http://example.org/tennis/player/Botic_van_de_Zandschulp>,
+        <http://example.org/tennis/player/Camilo_Ugo_Carabelli>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Cash>,
+        <http://example.org/tennis/player/Casper_Ruud>,
+        <http://example.org/tennis/player/Daniil_Medvedev>,
+        <http://example.org/tennis/player/David_Ferrer>,
+        <http://example.org/tennis/player/Del_Potro>,
+        <http://example.org/tennis/player/Denis_Shapovalov>,
+        <http://example.org/tennis/player/Diego_Schwartzman>,
+        <http://example.org/tennis/player/Dominic_Thiem>,
+        <http://example.org/tennis/player/Fernando_Gonzalez>,
+        <http://example.org/tennis/player/Fognini>,
+        <http://example.org/tennis/player/Gael_Monfils>,
+        <http://example.org/tennis/player/Grigor_Dimitrov>,
+        <http://example.org/tennis/player/Haas>,
+        <http://example.org/tennis/player/Holger_Rune>,
+        <http://example.org/tennis/player/Janko_Tipsarevic>,
+        <http://example.org/tennis/player/Jannik_Sinner>,
+        <http://example.org/tennis/player/Jelena_Jankovic>,
+        <http://example.org/tennis/player/John_Isner>,
+        <http://example.org/tennis/player/Juan_Martin_del_Potro>,
+        <http://example.org/tennis/player/Karen_Khachanov>,
+        <http://example.org/tennis/player/Kei_Nishikori>,
+        <http://example.org/tennis/player/Kevin_Anderson>,
+        <http://example.org/tennis/player/Kyle_Edmund>,
+        <http://example.org/tennis/player/Luca_Nardi>,
+        <http://example.org/tennis/player/Mario_Ancic_46>,
+        <http://example.org/tennis/player/Milos_Raonic>,
+        <http://example.org/tennis/player/Nikolay_Davydenko>,
+        <http://example.org/tennis/player/Nishikori>,
+        <http://example.org/tennis/player/Pablo_Carreno_Busta>,
+        <http://example.org/tennis/player/Pat_Cash>,
+        <http://example.org/tennis/player/Philipp_Kohlschreiber>,
+        <http://example.org/tennis/player/Rafael_Nadal>,
+        <http://example.org/tennis/player/Robin_Soderling_271>,
+        <http://example.org/tennis/player/Roddick>,
+        <http://example.org/tennis/player/Roger_Federer>,
+        <http://example.org/tennis/player/Sebastian_Korda>,
+        <http://example.org/tennis/player/Stan_Wawrinka>,
+        <http://example.org/tennis/player/Stanislas_Wawrinka>,
+        <http://example.org/tennis/player/Stefanos_Tsitsipas>,
+        <http://example.org/tennis/player/Tomas_Berdych>,
+        <http://example.org/tennis/player/Tommy_Haas>,
+        <http://example.org/tennis/player/del_Potro> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/US_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+
+<http://example.org/tennis/player/Rafael_Nadal> a tennis:Player ;
+    rdfs:label "Rafael Nadal" ;
+    tennis:fromCountry <http://example.org/tennis/country/London>,
+        <http://example.org/tennis/country/Madrid>,
+        <http://example.org/tennis/country/Majorca>,
+        <http://example.org/tennis/country/Manacor>,
+        <http://example.org/tennis/country/Miami>,
+        <http://example.org/tennis/country/Paris>,
+        <http://example.org/tennis/country/Spain> ;
+    tennis:participatedIn <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> ;
+    tennis:playedAgainst <http://example.org/tennis/player/Albert_Montanes>,
+        <http://example.org/tennis/player/Albert_Portas>,
+        <http://example.org/tennis/player/Albert_Ramos_Vinolas>,
+        <http://example.org/tennis/player/Alexander_Waske_72>,
+        <http://example.org/tennis/player/Alexander_Zverev>,
+        <http://example.org/tennis/player/Andre_Agassi>,
+        <http://example.org/tennis/player/Andre_Agassi_s>,
+        <http://example.org/tennis/player/Andrey_Rublev>,
+        <http://example.org/tennis/player/Andy_Murray>,
+        <http://example.org/tennis/player/Andy_Murray_134>,
+        <http://example.org/tennis/player/Andy_Murray_137>,
+        <http://example.org/tennis/player/Andy_Murray_203>,
+        <http://example.org/tennis/player/Andy_Roddick>,
+        <http://example.org/tennis/player/Anthony_Wilding>,
+        <http://example.org/tennis/player/Berdych>,
+        <http://example.org/tennis/player/Boris_Becker>,
+        <http://example.org/tennis/player/Botic_van_de_Zandschulp>,
+        <http://example.org/tennis/player/Camilo_Ugo_Carabelli>,
+        <http://example.org/tennis/player/Carlos_Alcaraz>,
+        <http://example.org/tennis/player/Carlos_Moya>,
+        <http://example.org/tennis/player/Cash>,
+        <http://example.org/tennis/player/Casper_Ruud>,
+        <http://example.org/tennis/player/Daniil_Medvedev>,
+        <http://example.org/tennis/player/David_Ferrer>,
+        <http://example.org/tennis/player/David_Nalbandian>,
+        <http://example.org/tennis/player/Djokovic_122>,
+        <http://example.org/tennis/player/Dominic_Thiem>,
+        <http://example.org/tennis/player/Dustin_Brown>,
+        <http://example.org/tennis/player/Fernando_Gonzalez>,
+        <http://example.org/tennis/player/Fernando_Verdasco>,
+        <http://example.org/tennis/player/Fognini>,
+        <http://example.org/tennis/player/Gael_Monfils>,
+        <http://example.org/tennis/player/Granollers>,
+        <http://example.org/tennis/player/Guillermo_Canas>,
+        <http://example.org/tennis/player/Guillermo_Vilas_s>,
+        <http://example.org/tennis/player/Hajek>,
+        <http://example.org/tennis/player/Hrbaty>,
+        <http://example.org/tennis/player/Janko_Tipsarevic>,
+        <http://example.org/tennis/player/Jo_Wilfried_Tsonga>,
+        <http://example.org/tennis/player/Joachim_Johansson>,
+        <http://example.org/tennis/player/John_Isner>,
+        <http://example.org/tennis/player/Juan_Martin_del_Potro>,
+        <http://example.org/tennis/player/Julien_Gely>,
+        <http://example.org/tennis/player/Karen_Khachanov>,
+        <http://example.org/tennis/player/Kei_Nishikori>,
+        <http://example.org/tennis/player/Kevin_Anderson>,
+        <http://example.org/tennis/player/Kyrgios>,
+        <http://example.org/tennis/player/La_Decima>,
+        <http://example.org/tennis/player/Lucas_Pouille>,
+        <http://example.org/tennis/player/Marc_Lopez>,
+        <http://example.org/tennis/player/Marcel_Granollers>,
+        <http://example.org/tennis/player/Mardy_Fish>,
+        <http://example.org/tennis/player/Mariano_Puerta_48>,
+        <http://example.org/tennis/player/Marin_Cilic>,
+        <http://example.org/tennis/player/Mario_Ancic>,
+        <http://example.org/tennis/player/Matteo_Berrettini>,
+        <http://example.org/tennis/player/Maxime_Cressy>,
+        <http://example.org/tennis/player/Medvedev>,
+        <http://example.org/tennis/player/Milos_Raonic>,
+        <http://example.org/tennis/player/Monfils>,
+        <http://example.org/tennis/player/Moya>,
+        <http://example.org/tennis/player/Nick_Kyrgios>,
+        <http://example.org/tennis/player/Nick_Kyrgios_297>,
+        <http://example.org/tennis/player/Novak_Djokovic>,
+        <http://example.org/tennis/player/Ricardo_Villacorta>,
+        <http://example.org/tennis/player/Richard_Gasquet>,
+        <http://example.org/tennis/player/Robin_Soderling>,
+        <http://example.org/tennis/player/Robin_Soderling_271>,
+        <http://example.org/tennis/player/Robredo>,
+        <http://example.org/tennis/player/Roger_Federer>,
+        <http://example.org/tennis/player/Rublev>,
+        <http://example.org/tennis/player/Sergiy_Stakhovsky>,
+        <http://example.org/tennis/player/Soderling>,
+        <http://example.org/tennis/player/Stan_Wawrinka>,
+        <http://example.org/tennis/player/Stefanos_Tsitsipas>,
+        <http://example.org/tennis/player/Taylor_Fritz>,
+        <http://example.org/tennis/player/Tomas_Berdych>,
+        <http://example.org/tennis/player/Tomeu_Salva>,
+        <http://example.org/tennis/player/Tommy_Robredo> ;
+    tennis:won <http://example.org/tennis/tournament/Australian_Open>,
+        <http://example.org/tennis/tournament/French_Open>,
+        <http://example.org/tennis/tournament/Wimbledon_Championships> .
+

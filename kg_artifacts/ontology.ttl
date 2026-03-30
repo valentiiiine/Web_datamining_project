@@ -1,0 +1,61 @@
+@prefix onto: <http://example.org/tennis/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov1: <http://example.org/tennis/provenance/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+onto:Match a owl:Class ;
+    rdfs:label "Match" .
+
+onto:editionYear a owl:DatatypeProperty ;
+    rdfs:label "editionYear" ;
+    rdfs:domain onto:TournamentEdition ;
+    rdfs:range xsd:gYear .
+
+onto:fromCountry a owl:ObjectProperty ;
+    rdfs:label "fromCountry" ;
+    rdfs:domain onto:Player ;
+    rdfs:range onto:Country .
+
+onto:hasSurface a owl:ObjectProperty ;
+    rdfs:label "hasSurface" ;
+    rdfs:domain onto:Tournament ;
+    rdfs:range onto:Surface .
+
+onto:participatedIn a owl:ObjectProperty ;
+    rdfs:label "participatedIn" ;
+    rdfs:domain onto:Player ;
+    rdfs:range onto:Tournament .
+
+onto:playedAgainst a owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:label "playedAgainst" ;
+    rdfs:domain onto:Player ;
+    rdfs:range onto:Player .
+
+onto:won a owl:ObjectProperty ;
+    rdfs:label "won" ;
+    rdfs:domain onto:Player ;
+    rdfs:range onto:Tournament .
+
+prov1:evidenceText a owl:DatatypeProperty ;
+    rdfs:label "evidenceText" .
+
+prov1:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "sourceURL" .
+
+onto:Country a owl:Class ;
+    rdfs:label "Country" .
+
+onto:Surface a owl:Class ;
+    rdfs:label "Surface" .
+
+onto:TournamentEdition a owl:Class ;
+    rdfs:label "TournamentEdition" .
+
+onto:Tournament a owl:Class ;
+    rdfs:label "Tournament" .
+
+onto:Player a owl:Class ;
+    rdfs:label "Player" .
+

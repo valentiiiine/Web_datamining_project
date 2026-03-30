@@ -1,0 +1,15 @@
+{
+  "model": "DistMult",
+  "embedding_dim": 48,
+  "learning_rate": 0.01,
+  "batch_size": 256,
+  "epochs": 20,
+  "MRR": 0.1356815099716186,
+  "Hits@1": 0.0739750445632798,
+  "Hits@3": 0.1387403446226975,
+  "Hits@10": 0.255050505050505,
+  "dataset_size": "full",
+  "train_triples": 52421,
+  "valid_triples": 3369,
+  "test_triples": 3366
+}

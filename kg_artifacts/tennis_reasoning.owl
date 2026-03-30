@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://example.org/tennis_reasoning.owl"
+         xmlns="http://example.org/tennis_reasoning.owl#"
+         xmlns:swrl="http://www.w3.org/2003/11/swrl#">
+
+<owl:Ontology rdf:about="http://example.org/tennis_reasoning.owl"/>
+
+<owl:ObjectProperty rdf:about="#won">
+  <rdfs:domain rdf:resource="#Player"/>
+  <rdfs:range rdf:resource="#Tournament"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasMajorWins">
+  <rdfs:domain rdf:resource="#Player"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Player">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tournament">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TopPlayer">
+  <rdfs:subClassOf rdf:resource="#Player"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Albert_Montañés">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Alcaraz-Jannik_Sinner">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Alexander_Zverev">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Andre_Agassi">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Andrey_Rublev">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Andy_Murray">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Annabel_Croft">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Anthony_Wilding">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Arthur_Ashe">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Beaten_Nadal">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Benito_Barbadillo">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Bertrand_Milbourne_Clark">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Björn_Borg">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Boris_Becker">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Botic_van_de_Zandschulp">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Brookes">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cameron_Norrie">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Camilo_Ugo_Carabelli">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Carlos_Alcaraz">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cash">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Casper_Ruud">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Chris_Evert">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Daniil_Medvedev">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#David_Ferrer">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#David_Goffin">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#David_Nalbandian">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Del_Potro">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Denis_Shapovalov">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Diego_Schwartzman">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Dominic_Thiem">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ernests_Gulbis">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fabian_Marozsan">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fabio_Fognini">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Federico_Delbonis">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fernando_González">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fognini">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Frances_Tiafoe">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Francisco_Cerúndolo">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fred_Perry">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fritz">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gaël_Monfils">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Genčić">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Guillermo_Vilas's">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Haas">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Hrbaty">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Hugo_Dellien">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Iga_Swiatek">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ivan_Lendl">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jack_Sock">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Janis_Skroderis,[43">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Janko_Tipsarević">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jannik_Sinner">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jimmy_Connors">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jo-Wilfried_Tsonga">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Joachim_Johansson">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#John_Isner">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#John_McEnroe">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#John_Newcombe">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Juan_Martín_del_Potro">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Justine_Henin">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kei_Nishikori">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kevin_Anderson">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kwon_Soon-woo">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kyle_Edmund">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kyrgios">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#La_Décima">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Laura_Robson">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Louise_Brough">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Lucas_Pouille">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marcos_Baghdatis">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Margaret_Court's">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Marin_Čilić">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mario_Ančić">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Martin_Kližan">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Martina">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Martina_Navratilova">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mats_Wilander">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Matteo_Berrettini">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Monica_Seles">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Nafal">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Nick_Kyrgios">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Novak_Djokovic">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pablo_Carreño_Busta">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pat_Cash">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pete_Sampras">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Philipp_Kohlschreiber">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rafael_Nadal">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ricardo_Villacorta">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Richard_Gasquet">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Roddick">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Roger_Federer">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#US_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <won rdf:resource="#Australian_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Roger_Federer.[196">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Roger_Federer.[36">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ruben_Bemelmans">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rublev">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Serena">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Serena_Williams">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sergiy_Stakhovsky">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sinner.[238">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#US_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Spencer_Gore">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stan_Wawrinka">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#Australian_Open"/>
+  <won rdf:resource="#US_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stan_Wawrinka,[602][603">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stanislas_Wawrinka">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stefan_Edberg">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Stefanos_Tsitsipas">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Steffi_Graf">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Thiem">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tomas_Berdych">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tommy_Haas">
+  <rdf:type rdf:resource="#Player"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Venus_Williams">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Viktor_Troicki">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Virginia_Wade">
+  <rdf:type rdf:resource="#Player"/>
+  <won rdf:resource="#French_Open"/>
+  <won rdf:resource="#Wimbledon_Championships"/>
+  <hasMajorWins rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasMajorWins>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Australian_Open">
+  <rdf:type rdf:resource="#Tournament"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#French_Open">
+  <rdf:type rdf:resource="#Tournament"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#US_Open">
+  <rdf:type rdf:resource="#Tournament"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wimbledon_Championships">
+  <rdf:type rdf:resource="#Tournament"/>
+</owl:NamedIndividual>
+
+<swrl:Variable rdf:about="urn:swrl#p"/>
+
+<swrl:Variable rdf:about="urn:swrl#n"/>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#Player"/>
+          <swrl:argument1 rdf:resource="urn:swrl#p"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:DatavaluedPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#hasMajorWins"/>
+              <swrl:argument1 rdf:resource="urn:swrl#p"/>
+              <swrl:argument2 rdf:resource="urn:swrl#n"/>
+            </swrl:DatavaluedPropertyAtom>
+          </rdf:first>
+          <rdf:rest>
+            <rdf:Description>
+              <rdf:first>
+                <swrl:BuiltinAtom>
+                  <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                  <swrl:arguments>
+                    <rdf:Description>
+                      <rdf:first rdf:resource="urn:swrl#n"/>
+                      <rdf:rest>
+                        <rdf:Description>
+                          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                        </rdf:Description>
+                      </rdf:rest>
+                    </rdf:Description>
+                  </swrl:arguments>
+                </swrl:BuiltinAtom>
+              </rdf:first>
+              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+          </rdf:rest>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#TopPlayer"/>
+          <swrl:argument1 rdf:resource="urn:swrl#p"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+</swrl:Imp>
+
+
+</rdf:RDF>

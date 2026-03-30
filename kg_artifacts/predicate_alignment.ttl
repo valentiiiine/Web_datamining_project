@@ -1,0 +1,20 @@
+@prefix onto: <http://example.org/tennis/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+onto:editionYear rdfs:comment "Mapped to 'point in time' because the local editionYear is a simplified temporal encoding of a tournament edition." ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/P585> ;
+    rdfs:subPropertyOf wdt:P585 .
+
+onto:fromCountry rdfs:comment "Mapped conservatively to 'country of citizenship'. It is not always strictly identical to nationality in sports text, so subPropertyOf is safer than equivalence." ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/P27> ;
+    rdfs:subPropertyOf wdt:P27 .
+
+onto:participatedIn rdfs:comment "Mapped to Wikidata 'participant in' because the local predicate captures participation in a tournament event." ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/P1344> ;
+    rdfs:subPropertyOf wdt:P1344 .
+
+onto:won rdfs:comment "Mapped conservatively to Wikidata 'winner' because the local predicate links a player to a tournament and is more specific than a generic award relation." ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/P1346> ;
+    rdfs:subPropertyOf wdt:P1346 .
+

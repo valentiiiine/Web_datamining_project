@@ -1,0 +1,129 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/tennis/country/Australia> rdfs:label "Australia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q408> .
+
+<http://example.org/tennis/country/Jamaica> rdfs:label "Jamaica" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q766> .
+
+<http://example.org/tennis/country/New_Zealand> rdfs:label "New Zealand" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q664> .
+
+<http://example.org/tennis/country/Spain> rdfs:label "Spain" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
+<http://example.org/tennis/player/Alexander_Zverev> rdfs:label "Alexander Zverev" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q237176> .
+
+<http://example.org/tennis/player/Andre_Agassi> rdfs:label "Andre Agassi" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7407> .
+
+<http://example.org/tennis/player/Andrey_Rublev> rdfs:label "Andrey Rublev" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17373391> .
+
+<http://example.org/tennis/player/Andy_Murray> rdfs:label "Andy Murray" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q33837> .
+
+<http://example.org/tennis/player/Anthony_Wilding> rdfs:label "Anthony Wilding" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q505788> .
+
+<http://example.org/tennis/player/Botic_van_de_Zandschulp> rdfs:label "Botic van de Zandschulp" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28038578> .
+
+<http://example.org/tennis/player/Cameron_Norrie> rdfs:label "Cameron Norrie" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q23668736> .
+
+<http://example.org/tennis/player/Carlos_Alcaraz> rdfs:label "Carlos Alcaraz" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q85518537> .
+
+<http://example.org/tennis/player/Casper_Ruud> rdfs:label "Casper Ruud" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18810082> .
+
+<http://example.org/tennis/player/Daniil_Medvedev> rdfs:label "Daniil Medvedev" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q190239> .
+
+<http://example.org/tennis/player/David_Ferrer> rdfs:label "David Ferrer" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q191476> .
+
+<http://example.org/tennis/player/Denis_Shapovalov> rdfs:label "Denis Shapovalov" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20979382> .
+
+<http://example.org/tennis/player/Dominic_Thiem> rdfs:label "Dominic Thiem" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q88762> .
+
+<http://example.org/tennis/player/Frances_Tiafoe> rdfs:label "Frances Tiafoe" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17305299> .
+
+<http://example.org/tennis/player/Gael_Monfils> rdfs:label "Gaël Monfils" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q186429> .
+
+<http://example.org/tennis/player/Jannik_Sinner> rdfs:label "Jannik Sinner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q64769553> .
+
+<http://example.org/tennis/player/Jo_Wilfried_Tsonga> rdfs:label "Jo-Wilfried Tsonga" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q192661> .
+
+<http://example.org/tennis/player/John_Isner> rdfs:label "John Isner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q53566> .
+
+<http://example.org/tennis/player/Juan_Martin_del_Potro> rdfs:label "Juan Martín del Potro" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q180535> .
+
+<http://example.org/tennis/player/Kei_Nishikori> rdfs:label "Kei Nishikori" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q311222> .
+
+<http://example.org/tennis/player/Kevin_Anderson> rdfs:label "Kevin Anderson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q299956> .
+
+<http://example.org/tennis/player/Kyle_Edmund> rdfs:label "Kyle Edmund" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6451141> .
+
+<http://example.org/tennis/player/Milos_Raonic> rdfs:label "Milos Raonic" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q312343> .
+
+<http://example.org/tennis/player/Nick_Kyrgios> rdfs:label "Nick Kyrgios" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3720084> .
+
+<http://example.org/tennis/player/Novak_Djokovic> rdfs:label "Novak Djokovic" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5812> .
+
+<http://example.org/tennis/player/Pablo_Carreno_Busta> rdfs:label "Pablo Carreño Busta" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7121592> .
+
+<http://example.org/tennis/player/Philipp_Kohlschreiber> rdfs:label "Philipp Kohlschreiber" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q77149> .
+
+<http://example.org/tennis/player/Rafael_Nadal> rdfs:label "Rafael Nadal" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q10132> .
+
+<http://example.org/tennis/player/Richard_Gasquet> rdfs:label "Richard Gasquet" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q209436> .
+
+<http://example.org/tennis/player/Roger_Federer> rdfs:label "Roger Federer" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1426> .
+
+<http://example.org/tennis/player/Stan_Wawrinka> rdfs:label "Stan Wawrinka" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q230417> .
+
+<http://example.org/tennis/player/Stefanos_Tsitsipas> rdfs:label "Stefanos Tsitsipas" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q310510> .
+
+<http://example.org/tennis/player/Tomas_Berdych> rdfs:label "Tomáš Berdych" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q193665> .
+
+<http://example.org/tennis/player/Venus_Williams> rdfs:label "Venus Williams" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11578> .
+
+<http://example.org/tennis/tournament/Australian_Open> rdfs:label "Australian Open" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60874> .
+
+<http://example.org/tennis/tournament/French_Open> rdfs:label "French Open" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q43605> .
+
+<http://example.org/tennis/tournament/US_Open> rdfs:label "US Open" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q123577> .
+
+<http://example.org/tennis/tournament/Wimbledon_Championships> rdfs:label "Wimbledon Championships" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q41520> .
+

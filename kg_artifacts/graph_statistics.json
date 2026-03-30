@@ -1,0 +1,21 @@
+{
+  "total_triples": 1787,
+  "total_entities": 236,
+  "total_relations": 6,
+  "predicate_uris": [
+    "http://example.org/tennis/ontology/editionYear",
+    "http://example.org/tennis/ontology/fromCountry",
+    "http://example.org/tennis/ontology/hasSurface",
+    "http://example.org/tennis/ontology/participatedIn",
+    "http://example.org/tennis/ontology/playedAgainst",
+    "http://example.org/tennis/ontology/won"
+  ],
+  "class_counts": {
+    "Player": 180,
+    "Tournament": 4,
+    "Match": 0,
+    "Surface": 3,
+    "Country": 13,
+    "TournamentEdition": 31
+  }
+}
