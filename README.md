@@ -189,7 +189,7 @@ Main project outputs:
 
 ## Final Report Guidance
 
-The report structure template is available in [reports/final_report_structure.md](/Users/vincentlemeur/Documents/S8/DIA/Datamining/Project_datamining_bis/reports/final_report_structure.md).
+The report structure template is available in [reports/final_report.pdf](/Users/vincentlemeur/Documents/S8/DIA/Datamining/Project_datamining_bis/reports/final_report.pdf).
 
 The report should include:
 
